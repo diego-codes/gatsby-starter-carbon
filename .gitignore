@@ -32,6 +32,9 @@ build/Release
 node_modules
 jspm_packages
 
+# npm lock file
+package-lock.json
+
 # Optional npm cache directory
 .npm
 
@@ -47,7 +50,6 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
-
 # Build Files
 public/
 .cache/
@@ -60,3 +62,6 @@ bundle-stats.json
 
 # IDE files
 .vscode
+
+# OS files
+.DS_Store
