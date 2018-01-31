@@ -1,15 +1,8 @@
-.main-content {
-    display: flex;
-    flex-direction: column;
+.demo-nav {
+  top: 0 !important;
+  z-index: 1;
 
-    .main-container {
-        display: flex;
-        min-height: 100%;
-        flex-direction: column;
-        flex: 1;
-
-        .main-content {
-            flex: 1;
-        }
-    }
+  .bx--interior-left-nav-collapse {
+    margin-bottom: 0 !important;
+  }
 }

@@ -3,7 +3,6 @@ import { Tile } from "carbon-components-react";
 import UserLinks from "../UserLinks/UserLinks";
 import config from "../../../data/SiteConfig";
 import "./About.scss";
-// import "carbon-components/scss/components/tile/_tile.scss";
 
 class About extends Component {
   render() {
